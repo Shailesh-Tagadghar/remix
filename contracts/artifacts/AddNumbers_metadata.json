@@ -43,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Mynew.sol": "AddNumbers"
+			"contracts/auction.sol": "AddNumbers"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -57,12 +57,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Mynew.sol": {
-			"keccak256": "0x333fb3ba2d0e0991bcaca1befae0f5dee7a613b583ee564ba537e42cde81b89d",
+		"contracts/auction.sol": {
+			"keccak256": "0xa1046b7c9effc4fc0443f8297f94686613b147618908c0b0a66e4df602ea01e7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d20054fbc27d8d17ea3b63c4a6f9392aacc4b07ebcb9d6223e05960082f59aac",
-				"dweb:/ipfs/QmTZsxuDZjxbDw8SW1hwLMeKmwqyfCUwiDngTSoeYpuf42"
+				"bzz-raw://42fcec0c733ca06157fefe26c9503170b7afa854a7de4037d6f381dfe0b229f4",
+				"dweb:/ipfs/QmP3f8PDewFEWmk5YjyrV4w2N4YkLQUQKAcX9tTfRNfxNr"
 			]
 		}
 	},
