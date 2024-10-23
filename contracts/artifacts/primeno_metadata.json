@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "prime",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/prime.sol": "primeno"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/prime.sol": {
+			"keccak256": "0x139e33dd579ed996e6317b4ab28821adcbd5b7870be86b96b44ef337adf234e5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://64071d914a1d78006441ca3b49579c994d0692aa7e9342f0b41f30173a0c462b",
+				"dweb:/ipfs/QmZTfi2qwGhoDWhbiuoUs393c8Jm4TbQG2zMTRcvwj7W1n"
+			]
+		}
+	},
+	"version": 1
+}
