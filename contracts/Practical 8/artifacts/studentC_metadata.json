@@ -1,0 +1,133 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "n",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "m",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "register",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "student",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "sid",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "BCT",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "ML",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "BDA",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "percent",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "grade",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Practical 8/RegisterStudent.sol": "studentC"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Practical 8/RegisterStudent.sol": {
+			"keccak256": "0x40c64f4c4f656d35288c5855c3aa9865968b79f5bccbe73c6c0fea36f0d002bb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://39b2075163cc068f4146140b76d78ca31ebf92796160297d3d1acf7d2c60c432",
+				"dweb:/ipfs/QmQBp1Bizce7h9sASMrxLHEkYdsJzrWHGMcEyR5sVWY9Uj"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "mean",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Practical 8/CalMean.sol": "meanNo"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Practical 8/CalMean.sol": {
+			"keccak256": "0xcbae1e17c86b75ca93894c8e0cc48fb700a4b7321ebf6c6c5da31102cdd583d6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6068d610a109ee3ee444312fcac359b10f89180989ab2359c45c608d25b0d7da",
+				"dweb:/ipfs/QmaaXdY8pCWD8p4KbZGvFFvB1mcUeqHWsYfdwMtvVNJ6dP"
+			]
+		}
+	},
+	"version": 1
+}
