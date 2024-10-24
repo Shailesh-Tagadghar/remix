@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getVal",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string[2]",
+						"name": "",
+						"type": "string[2]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "a",
+						"type": "string"
+					},
+					{
+						"internalType": "string[2]",
+						"name": "arr",
+						"type": "string[2]"
+					}
+				],
+				"name": "setN",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Practical 10/SingleInheritance.sol": "song"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Practical 10/SingleInheritance.sol": {
+			"keccak256": "0xee7e59faac527987faecb5b1628e70e0e17c109bdf28beba35b0e3793eb0492a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://96b14734fad42a2465f9b1dd85e03aa5508f9687fc1fb99b71037d1aa7d7caa7",
+				"dweb:/ipfs/QmbGje4CJrN3Z8jNQqcQzhyGCqxPizi3Cw1iNeZKPqvnmH"
+			]
+		}
+	},
+	"version": 1
+}

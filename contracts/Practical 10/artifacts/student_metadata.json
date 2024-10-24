@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "cn",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "pn",
+						"type": "string"
+					}
+				],
+				"name": "setCollege",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "sn",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "rn",
+						"type": "uint256"
+					}
+				],
+				"name": "setStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Practical 10/MultiLevelInherirtance.sol": "student"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Practical 10/MultiLevelInherirtance.sol": {
+			"keccak256": "0x4f9cd41edfa7a219a94b0ec2a0b88eb365e3354493b4a930520ac52ac90e9c71",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://83798eb02182a2fd7312f895151da6d98b0ff0e5b084bbf5efa6a68db11390bd",
+				"dweb:/ipfs/QmPkaZW9AfpmNXuCM2jxRUrTSfedMKt8SPLvG3eowbPG1i"
+			]
+		}
+	},
+	"version": 1
+}
